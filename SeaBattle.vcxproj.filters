@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="View">
+      <UniqueIdentifier>{12eea0c5-badb-4006-accb-9d41b8ea7cdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Checking">
+      <UniqueIdentifier>{516d3b09-6293-40b2-b362-e20406dba8ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models">
+      <UniqueIdentifier>{35cf248a-8e65-45f6-be65-83eadc466413}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InstallShips">
+      <UniqueIdentifier>{3b8a61c0-fb99-42ee-90d1-26bd825bc195}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSettings">
+      <UniqueIdentifier>{be0ce733-be59-4ea9-9c7a-54d272765639}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shots">
+      <UniqueIdentifier>{8edbe2a1-5194-4a58-ae2b-2edd784847d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GamePlay">
+      <UniqueIdentifier>{078485bd-94ed-4301-bbb8-f5e91340fa3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{6bb7d2e0-c970-4097-98c3-10ece183c866}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ChangeArrays">
+      <UniqueIdentifier>{d44f79b5-e061-4cb9-b94a-2f03b2590031}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MenuAndText">
+      <UniqueIdentifier>{16c4551a-3eb5-40f6-8124-38578ff9ca8f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SeaBattle.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="GetGameSettings.cpp">
+      <Filter>GameSettings</Filter>
+    </ClCompile>
+    <ClCompile Include="TacticalShot.cpp">
+      <Filter>Shots</Filter>
+    </ClCompile>
+    <ClCompile Include="ShotAtCoord_Y_X.cpp">
+      <Filter>Shots</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangeArrays.cpp">
+      <Filter>ChangeArrays</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckForShipDestruction.cpp">
+      <Filter>Checking</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckingForCorrectness.cpp">
+      <Filter>Checking</Filter>
+    </ClCompile>
+    <ClCompile Include="CoutText.cpp">
+      <Filter>MenuAndText</Filter>
+    </ClCompile>
+    <ClCompile Include="InstallShips.cpp">
+      <Filter>InstallShips</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerModel.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay.cpp">
+      <Filter>GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="SwithingMove.cpp">
+      <Filter>GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="AttackMove.cpp">
+      <Filter>GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="IsHits.cpp">
+      <Filter>GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="RequestInputOfCoordinatesAndCheckOnCorrect.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="InputFromUser.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenPrint.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="ClearDispPrint.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SeaBattle.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="GetGameSettings.h">
+      <Filter>GameSettings</Filter>
+    </ClInclude>
+    <ClInclude Include="System.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="CoutText.h">
+      <Filter>MenuAndText</Filter>
+    </ClInclude>
+    <ClInclude Include="ShipsModel.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerModel.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
